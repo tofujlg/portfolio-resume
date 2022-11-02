@@ -1,45 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>tojujlg Portfolio site</title>
-  <link rel="stylesheet" type="text/css" media="screen" href="./styles/main.css" >
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>tojujlg Portfolio site</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="./styles/main.css"
+    />
+  </head>
+  <body>
+    <div id="container--main">
+      <section id="wrapper--hero" class="section--page">
+        <img id="profile-pic" src="./assets/images/SCR-20221101-f0c.png" alt="profile_pic"/>
+        <div>
+          <h1>Tofujlg</h1>
+          <p id="bio">Software developer in Japan</p>
+          <p>🗼Tokyo</p>
+        </div>
+      </section>
 
-  <div id="container--main">
+      <section id="section--page">
+        <div id="socials--list">
+          <a href="https://vimeo.com/jlgkohei" target="_blank">Vimeo</a>
+          <a href="https://twitter.com/jujekebab" target="_blank">Twitter</a>
+          <a href="#" target="_blank">Linkedin</a>
+          <a href="https://github.com/tofujlg" target="_blank">Github</a>
+          <a href="https://jujekebab.com/" target="_blank">Blog</a>
+        </div>
+      </section>
 
-    <section id="wrapper--hero" class="section--page">
-      <img src="./assets/images/SCR-20221101-f0c.png" >
-    <div>
-      <p id="bio">Software developer in Japan</p>
-      <p>email</p>
-    </div>
-     </section>
-
-     <section id="section--page">
-      <div id="socials--list">
-        <a href="#" target="_blank">Vimeo</a>
-        <a href="#" target="_blank">Twitter</a>
-        <a href="#" target="_blank">Linkedin</a>
-        <a href="#" target="_blank">Github</a>
-        <a href="https://jujekebab.com/" target="_blank">Blog</a>
-      </div>
-
-     </section>
-
-     <section class="section--page">
+      <section id="qualifications--list" class="section--page">
         <h2>Skills and Qualifications</h2>
         <ul>
-         <li>Skill A</li> 
-         <li>Skill B</li> 
-         <li>Skill C</li> 
+          <li>Japanese</li>
+          <li>English</li>
+          <li>Persian</li>
+          <li>Obsidian</li>
         </ul>
-     </section>
-<p>test</p>
-  </div>
+      </section>
+      
+      <section class="section--page">
+        <h2>Tech stack</h2>
+    
+        <div id="wrapper--techstack__items">
+            <div class="card--techstack"><span>JavaScript, NodeJS</span></div>
+            <div class="card--techstack"><span>FastAPI</span></div>
+            <div class="card--techstack"><span>React, Gatby JS</span></div>
+            <div class="card--techstack"><span>MySQL</span></div>
+        </div>
+    </section>
 
-</body>
+    <section id="work-history-wrapper" class="section--page">
+      <h2>Work History</h2>
+  
+      <div class="line-break"></div>
+      <div class="card--work-history">
+          <strong>🚧 DEVELOPER ADVOCATE | AGORA.IO</strong>
+          <p>11/2021 - Present</p>
+          <p>Worked on making Agora’s Web Based SDK more accessible through video tutorials, articles, demo projects and event based training. Also building out React UI components & leading a team to re-design Agora’s documentation and api reference.</p>
+          <ul>
+              <li>Doubled Web SDK’s monthly usage minutes from 15 million to 30 million minutes within my first 4 months</li>
+              <li>Produced educational video content which resulted in 300k+ views on youtube</li>
+              <li>Produced SEO campaigns and content to gain market share for related keywords.</li>
+          </ul>
+      </div>
+  
+      <div class="line-break"></div>
+  
+      <div class="card--work-history">
+          <strong>🚧 INSTRUCTOR | YOUTUBE, UDEMY, TEACHABLE</strong>
+          <p>11/2019 - Present</p>
+          <p>Produced content showcasing new tech, tutorials & interviews with top developers.</p>
+          <ul>
+              <li>166,000+ Youtube Subscribers</li>
+              <li>30,000 course copies sold</li>
+              <li>12+ Million views on Youtube</li>
+              <li>Made regular contributions to Traversy Medias youtube channel (1.9m Subscribers)</li>
+              <li>Tutorial videos included projects such as social networks, Ecommerce, real time video, stripe & paypal integrations and more </li>
+          </ul>
+      </div>
+  
+      <div class="line-break"></div>
+  
+      <div class="card--work-history">
+          <strong>🚧 SENIOR DEVELOPER | FOI LABS</strong>
+          <p>10/2017 - 10/2019</p>
+          <p>Designed and developed a laboratory management system. My system
+              provided an interface for lab technicians and customers to view and
+              track data from samples tested in the lab.</p>
+          <ul>
+              <li>Designed prototype & pitched original idea for new lab management system (LIMS)</li>
+              <li>Built entire code base and brought version 1 of LIMS system to market as a solo developer</li>
+              <li>Onboarded and trained customers (Webinars & Conferences)</li>
+              <li>Managed a small team of developers in expansion of LIMS system</li>
+          </ul>
+      </div>
+  
+  </section>
+
+    </div>
+  </body>
 </html>
